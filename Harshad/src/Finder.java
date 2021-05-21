@@ -15,7 +15,7 @@ public class Finder {
 
     public ArrayList getHarshad (int num){
         ArrayList <Integer> list = new ArrayList();
-        for (int i = 1; i<num; i++){
+        for (int i = 1; i<=num; i++){
             if (isHarshad(i)){
                 list.add(i);
             }
